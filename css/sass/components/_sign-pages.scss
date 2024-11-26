@@ -1,5 +1,4 @@
 body.sign-pages {
-  // background: radial-gradient(50% 50% at 50% 50%, #ffff97 0%, #ff9b0b 100%);
   background-repeat: no-repeat;
   min-height: 100vh;
   background-image: url(../images/sign-bg.svg);
@@ -22,30 +21,7 @@ body.sign-pages2 {
   margin: 0 auto;
   padding: 0 25px;
 }
-.sign-header {
-  padding: 44px 0 0;
-  display: flex;
-  align-items: center;
-  gap: 36px;
-  justify-content: flex-start;
-}
-.sign-logo {
-  height: 70px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  gap: 8px;
-  border-radius: 35px;
-  backdrop-filter: blur(54px);
-  color: $sec;
-  font-weight: 600;
-  font-size: 22px;
-  padding: 0 24px 0 5px;
-  background-color: rgba(255, 255, 255, 0.5);
-  @include max-991 {
-    font-size: 16px;
-  }
-}
+
 .sign-section {
   position: relative;
   width: 100%;
