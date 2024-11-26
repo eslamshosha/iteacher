@@ -7,7 +7,37 @@ body.sign-pages {
 }
 body.sign-pages2 {
   position: relative;
-  background-color: $white;
+  background-color: #fffbee;
+  .main-logo {
+    backdrop-filter: blur(54px);
+    background-color: rgba(245, 244, 242, 1);
+  }
+}
+.signBg img {
+  position: absolute;
+  user-select: none;
+  pointer-events: none;
+  z-index: -1;
+}
+.signBg-1 {
+  top: 0;
+  inset-inline-end: 0;
+  @include max-991 {
+    display: none;
+  }
+}
+.signBg-2 {
+  bottom: 0;
+  inset-inline-end: 0;
+}
+.signBg-3 {
+  bottom: 0;
+  inset-inline-start: 0;
+}
+.signBg-4 {
+  bottom: 0;
+  width: 100%;
+  z-index: -2;
 }
 .body-wrapper {
   // background-image: url(../../../images/vectors/vector-login.png);
